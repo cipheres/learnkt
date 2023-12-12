@@ -118,5 +118,80 @@ An immutable object (unchangeable object) is an object whose state cannot be mod
 - Sets
 - User-Defined Class
 
+Whenever we make changes to the immutable type python creates a new object and assigns it. We can confirm this using ` id(object)` function.
 
+**id(object)**
+Return the “identity” of an object. This is an integer which is guaranteed to be unique and constant for this object during its lifetime. Two objects with non-overlapping lifetimes may have the same id() value.
 
+**Immutable Object Example**
+```python
+foo = 23
+bar = foo
+print(f"foo: {id(foo)}")
+print(f"bar: {id(bar)}")
+bar = 44
+print(f"bar: {id(bar)}")
+```
+
+**Output**
+```
+foo: 139889221284616
+bar: 139889221284616
+bar: 139889221285288
+```
+---
+**Mutable Object Example**
+
+```python
+bikes = ["ducati", "kawasaki"]
+print(f"bikes: {id(bikes)}")
+bikes.append("bmw")
+print(f"bikes: {id(bikes)}")
+```
+
+**Output**
+```
+bikes: 140383198516864
+bikes: 140383198516864
+```
+
+## `==` vs `is` operator
+
+`==` & `is` operator are used interchanably but they mean different things. `==` operator compares the value whereas `is` operator compares if both are same object in memory.
+
+```python
+foo = 32
+bar = foo
+print(f"foo: {id(foo)}\nbar: {id(bar)}")
+print(f"foo is bar {foo is bar}")
+print(f"foo == bar {foo == bar}")
+```
+**Output**
+```
+foo: 140213455914024
+bar: 140213455914024
+foo is bar True
+foo == bar True
+```
+
+Custom class can use `__eq__(self, other)` method to implement how `==` operator will work with that class. Hence, `==` can throw you off sometime if `__eq__(self, other)` is implemented by someone.
+
+```python
+class Foo:
+    def __eq__(self, other):
+        return False
+
+foo = Foo()
+bar = foo
+print(f"foo: {id(foo)}\nbar: {id(bar)}")
+print(f"foo is bar {foo is bar}")
+print(f"foo == bar {foo == bar}")
+```
+**Output**
+```
+foo: 140167672784592
+bar: 140167672784592
+foo is bar True
+foo == bar False
+```
+As we can see eventhough both are same the `==` operator is false.
