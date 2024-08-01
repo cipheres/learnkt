@@ -14,7 +14,7 @@
       
       <guid>https://learnkt.texoviva.com/posts/hello-kotlin/</guid>
       <description>Here is a simple program that prints &amp;ldquo;Hello, world!&amp;rdquo;:
-1 2 3 fun main(args: Array&amp;lt;String&amp;gt;) { println(&amp;#34;Hello, World!&amp;#34;) } In Kotlin:
+fun main(args: Array&amp;lt;String&amp;gt;) { println(&amp;#34;Hello, World!&amp;#34;) } In Kotlin:
 fun is used to declare a function the `main()`` function is where your program starts from the body of a function is written within curly braces {} println() and print() functions print their arguments to standard output </description>
     </item>
     

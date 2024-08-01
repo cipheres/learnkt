@@ -137,7 +137,7 @@ weight = 20
 # weight = 30
 
 [markup.highlight]
-lineNos = true
+lineNos = false
 anchorLineNos = true
 codeFences = true
 guessSyntax = true

@@ -14,7 +14,7 @@
       
       <guid>https://learnkt.texoviva.com/posts/data-types-in-python/</guid>
       <description>In Python, equal sign (=) is used to assign a value to variable.
-1 greeting = &amp;#34;Hello, World!&amp;#34; A variable can be assigned different data types. Generally “Data types” are classified as either “value types” or “reference types”, where reference types are always implicitly accessed via references, whereas value type variables directly contain the values themselves. Languages like C/C++ use value types, whereas python uses “reference type” data type.
+greeting = &amp;#34;Hello, World!&amp;#34; A variable can be assigned different data types. Generally “Data types” are classified as either “value types” or “reference types”, where reference types are always implicitly accessed via references, whereas value type variables directly contain the values themselves. Languages like C/C++ use value types, whereas python uses “reference type” data type.
 What is “refrence type” &amp;amp; “value type” data type means?</description>
     </item>
     
