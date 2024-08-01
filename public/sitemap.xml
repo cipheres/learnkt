@@ -2,10 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://learnkt.texoviva.com/categories/</loc>
+    <loc>https://learnkt.texoviva.com/tags/data-type/</loc>
+    <lastmod>2023-12-12T20:31:07+05:30</lastmod>
+  </url><url>
+    <loc>https://learnkt.texoviva.com/posts/data-types-in-python/</loc>
+    <lastmod>2023-12-12T20:31:07+05:30</lastmod>
   </url><url>
     <loc>https://learnkt.texoviva.com/</loc>
+    <lastmod>2023-12-12T20:31:07+05:30</lastmod>
+  </url><url>
+    <loc>https://learnkt.texoviva.com/posts/</loc>
+    <lastmod>2023-12-12T20:31:07+05:30</lastmod>
+  </url><url>
+    <loc>https://learnkt.texoviva.com/tags/python/</loc>
+    <lastmod>2023-12-12T20:31:07+05:30</lastmod>
+  </url><url>
+    <loc>https://learnkt.texoviva.com/tags/reference-type/</loc>
+    <lastmod>2023-12-12T20:31:07+05:30</lastmod>
   </url><url>
     <loc>https://learnkt.texoviva.com/tags/</loc>
+    <lastmod>2023-12-12T20:31:07+05:30</lastmod>
+  </url><url>
+    <loc>https://learnkt.texoviva.com/tags/value-type/</loc>
+    <lastmod>2023-12-12T20:31:07+05:30</lastmod>
+  </url><url>
+    <loc>https://learnkt.texoviva.com/tags/variables/</loc>
+    <lastmod>2023-12-12T20:31:07+05:30</lastmod>
+  </url><url>
+    <loc>https://learnkt.texoviva.com/posts/hello-kotlin/</loc>
+    <lastmod>2023-12-10T15:43:42+05:30</lastmod>
+  </url><url>
+    <loc>https://learnkt.texoviva.com/tags/hello-world/</loc>
+    <lastmod>2023-12-10T15:43:42+05:30</lastmod>
+  </url><url>
+    <loc>https://learnkt.texoviva.com/tags/kotlin/</loc>
+    <lastmod>2023-12-10T15:43:42+05:30</lastmod>
+  </url><url>
+    <loc>https://learnkt.texoviva.com/categories/</loc>
   </url>
 </urlset>

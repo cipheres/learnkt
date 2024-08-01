@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Learnkt</title>
-    <link>https://learnkt.texoviva.com/</link>
-    <description>Recent content on Learnkt</description>
+    <title>reference type on Learnkt</title>
+    <link>https://learnkt.texoviva.com/tags/reference-type/</link>
+    <description>Recent content in reference type on Learnkt</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Tue, 12 Dec 2023 20:31:07 +0530</lastBuildDate><atom:link href="https://learnkt.texoviva.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 12 Dec 2023 20:31:07 +0530</lastBuildDate><atom:link href="https://learnkt.texoviva.com/tags/reference-type/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Types in Python</title>
       <link>https://learnkt.texoviva.com/posts/data-types-in-python/</link>
@@ -16,17 +16,6 @@
       <description>In Python, equal sign (=) is used to assign a value to variable.
 1 greeting = &amp;#34;Hello, World!&amp;#34; A variable can be assigned different data types. Generally “Data types” are classified as either “value types” or “reference types”, where reference types are always implicitly accessed via references, whereas value type variables directly contain the values themselves. Languages like C/C++ use value types, whereas python uses “reference type” data type.
 What is “refrence type” &amp;amp; “value type” data type means?</description>
-    </item>
-    
-    <item>
-      <title>Hello Kotlin</title>
-      <link>https://learnkt.texoviva.com/posts/hello-kotlin/</link>
-      <pubDate>Sun, 10 Dec 2023 15:43:42 +0530</pubDate>
-      
-      <guid>https://learnkt.texoviva.com/posts/hello-kotlin/</guid>
-      <description>Here is a simple program that prints &amp;ldquo;Hello, world!&amp;rdquo;:
-1 2 3 fun main(args: Array&amp;lt;String&amp;gt;) { println(&amp;#34;Hello, World!&amp;#34;) } In Kotlin:
-fun is used to declare a function the `main()`` function is where your program starts from the body of a function is written within curly braces {} println() and print() functions print their arguments to standard output </description>
     </item>
     
   </channel>

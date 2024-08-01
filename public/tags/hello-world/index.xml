@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>hello world on Learnkt</title>
+    <link>https://learnkt.texoviva.com/tags/hello-world/</link>
+    <description>Recent content in hello world on Learnkt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 10 Dec 2023 15:43:42 +0530</lastBuildDate><atom:link href="https://learnkt.texoviva.com/tags/hello-world/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello Kotlin</title>
+      <link>https://learnkt.texoviva.com/posts/hello-kotlin/</link>
+      <pubDate>Sun, 10 Dec 2023 15:43:42 +0530</pubDate>
+      
+      <guid>https://learnkt.texoviva.com/posts/hello-kotlin/</guid>
+      <description>Here is a simple program that prints &amp;ldquo;Hello, world!&amp;rdquo;:
+1 2 3 fun main(args: Array&amp;lt;String&amp;gt;) { println(&amp;#34;Hello, World!&amp;#34;) } In Kotlin:
+fun is used to declare a function the `main()`` function is where your program starts from the body of a function is written within curly braces {} println() and print() functions print their arguments to standard output </description>
+    </item>
+    
+  </channel>
+</rss>
