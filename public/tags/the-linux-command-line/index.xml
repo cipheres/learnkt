@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>The Linux Command Line on Learnkt</title>
+    <link>https://learnkt.texoviva.com/tags/the-linux-command-line/</link>
+    <description>Recent content in The Linux Command Line on Learnkt</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 01 Aug 2024 19:37:59 +0530</lastBuildDate><atom:link href="https://learnkt.texoviva.com/tags/the-linux-command-line/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Linux Command Line 2ed</title>
+      <link>https://learnkt.texoviva.com/posts/the-linux-command-line-2ed/</link>
+      <pubDate>Thu, 01 Aug 2024 19:37:59 +0530</pubDate>
+      
+      <guid>https://learnkt.texoviva.com/posts/the-linux-command-line-2ed/</guid>
+      <description>Chapter 1 - What is shell? Shell is program which takes input from keyboard &amp;amp; passes them to OS. There are various types of shell like bash, sh, zsh etc.
+Terminal Emulators are which helps to interact with shells like konsole from KDE, gnome-terminal from GNOME etc.
+user@hostname:~$ 👆 This is shell prompt. Appears when shell is ready to accept input. (#) represent running shell as superuser, ($) represent normal user.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,6 +1,7 @@
 ---
 title: 'The Linux Command Line 2ed'
 date: 2024-08-01T19:37:59+05:30
+tags: ["linux", "bash", "The Linux Command Line", "William E. Shott"]
 draft: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
@@ -229,3 +230,32 @@ command -options arguments
 | 32059 | Size of file in bytes |
 | 2017-04-03 11:05 | date & time for last modification |
 | oo-cd-cover.odf | name of the file |
+
+12. `file filename` commands is used to determine the type of file. In Linux it is not necessary for file to have an extension.
+```bash
+user@hostname:~$ file picture.jpg
+picture.jpg: JPEG image data, JFIF standard 1.01
+```
+
+13. In Linux one of the common idea is  *everything is a file*.
+
+14. Linux contains lot of text files. They are different from MS Word or Libre Writer files. These text files only contains only text like ASCII. They are mainly used for configuration, scripts & logs.
+
+15. `less filename` is used to view the these text files.
+```bash
+user@hostname:~$ less /etc/passwd
+```
+
+16. Commands to navigate `less`
+| Command | Action |
+|---------|--------|
+| Page Up or b | Scroll back one page |
+| Page Down or space | Scroll down one page |
+| Up Arrow | Scroll back one line |
+| Down Arrow | Scroll Down one line |
+| G | Move to the end of file |
+| 1G or g | Move to the start of file |
+| /characters | Find next occurence of characters |
+| n | Search next occurence of previous search |
+| h | Display help screen |
+| q | Quit less |

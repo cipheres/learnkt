@@ -2,13 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://learnkt.texoviva.com/tags/bash/</loc>
+    <lastmod>2024-08-01T19:37:59+05:30</lastmod>
+  </url><url>
     <loc>https://learnkt.texoviva.com/</loc>
+    <lastmod>2024-08-01T19:37:59+05:30</lastmod>
+  </url><url>
+    <loc>https://learnkt.texoviva.com/tags/linux/</loc>
     <lastmod>2024-08-01T19:37:59+05:30</lastmod>
   </url><url>
     <loc>https://learnkt.texoviva.com/posts/</loc>
     <lastmod>2024-08-01T19:37:59+05:30</lastmod>
   </url><url>
+    <loc>https://learnkt.texoviva.com/tags/</loc>
+    <lastmod>2024-08-01T19:37:59+05:30</lastmod>
+  </url><url>
+    <loc>https://learnkt.texoviva.com/tags/the-linux-command-line/</loc>
+    <lastmod>2024-08-01T19:37:59+05:30</lastmod>
+  </url><url>
     <loc>https://learnkt.texoviva.com/posts/the-linux-command-line-2ed/</loc>
+    <lastmod>2024-08-01T19:37:59+05:30</lastmod>
+  </url><url>
+    <loc>https://learnkt.texoviva.com/tags/william-e.-shott/</loc>
     <lastmod>2024-08-01T19:37:59+05:30</lastmod>
   </url><url>
     <loc>https://learnkt.texoviva.com/tags/data-type/</loc>
@@ -21,9 +36,6 @@
     <lastmod>2023-12-12T20:31:07+05:30</lastmod>
   </url><url>
     <loc>https://learnkt.texoviva.com/tags/reference-type/</loc>
-    <lastmod>2023-12-12T20:31:07+05:30</lastmod>
-  </url><url>
-    <loc>https://learnkt.texoviva.com/tags/</loc>
     <lastmod>2023-12-12T20:31:07+05:30</lastmod>
   </url><url>
     <loc>https://learnkt.texoviva.com/tags/value-type/</loc>
