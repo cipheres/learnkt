@@ -211,6 +211,7 @@ command -options arguments
 | -r | --reverse | Display result in reverse order. Normally displays in ascending alphabetical order. |
 | -S |  | Sort result by file size |
 | -t |  | Sort by modification time |
+| -1 |  | List one item per line different from -l |
 
 
 11. Explaining the output of long format
@@ -259,3 +260,9 @@ user@hostname:~$ less /etc/passwd
 | n | Search next occurence of previous search |
 | h | Display help screen |
 | q | Quit less |
+
+17. `less` is replacement for `more`. `less` falls into the class of program called pagers, it allows easy viewing of long text file in page-by-page manner. Whereas `more` only allowed forward page, `less` allows forward as well as backward page.
+
+18. If you are using a mouse, you can double-click a filename to copy it and middle-click to paste it into commands.
+
+19. If we accidentally attempt to view a non-text file and it scrambles the terminal window, we can recover by entering the `reset` command.
