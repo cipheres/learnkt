@@ -317,3 +317,64 @@ user@hostname:~$ ln /path/to/original/file /path/to/softlink
 24. If original file is deleted the softlink stops working, it throws error "No such file or directory. Whereas hardlink will still work & show the content of original file. Hardlinks are dependent on indone & each drive has it own inode numbers due to this reason copying hardlinks to different drives can cause issues while softlinks work just fine.
 
 25. In Linux there are many important files that are plain human-readable text. Unlike many proprietary systems, Linux makes everything available for examination and study.
+
+
+
+## Chapter 4 - Manipulating files & directories
+
+1. Five most used commands:-
+    - `cp` copy files & directories
+    - `mv` move or rename files & directories
+    - `mkdir` create directories
+    - `rm` remove files & directories
+    - `ln` create hard & symbolic links
+
+2. Using special characters help in specifying filenames. These characters called *wildcards*. Using wildcards(a.k.a. *globbing*) allows you to select filenames based on characters.
+
+| Wildcard | Meaning |
+|:---------|:--------|
+| `*` | Matches any characters |
+| `?` | Matches any single character |
+| `[characters]` | Matches any character that is a member of the set *characters* |
+| `[!characters]` | Matches any character that is not a member of the set *characters* |
+| `[[:class:]]` | Matches any character that is a member of the specified *class* |
+
+3. Commonly used character class
+| Character Class | Meaning |
+|:----------------|:--------|
+| `[:alnum:]` | Matches any alphanumeric characters |
+| `[:alpha:]` | Matches any alphabetic character |
+| `[:digit:]` | Matches any numeral |
+| `[:lower:]` | Matches any lowercase letter |
+| `[:upper:]` | Matches any uppercase letter |
+
+4. *Wildcards* can used to select some complex filenames.
+Examples:-
+
+| Pattern | Matches |
+|:--------|:--------|
+| `*` | All files |
+| `g*` | Any file beginning with *g* |
+| `b*.txt` | Any file beginning with *b* followed by any characters and ending with *.txt* |
+| `Data???` | Any file beginning with Data followed by exactly three characters |
+| `[abc]*` | Any file beginning with either an *a, a b,* or *a c* |
+| `BACKUP.[0-9][0-9][0-9]` | Any file beginning with *BACKUP*. followed by exactly three numerals |
+| `[[:upper:]]*` | Any file beginning with an uppercase letter |
+| `[![:digit:]]*` | Any file not beginning with a numeral |
+| `*[[:lower:]123]` | Any file ending with a lowercase letter or the numerals 1, 2, or 3 |
+
+5. Wildcards work in GUI too. App like *nautilus* in gnome or *Dolphin* in KDE supports wildcards.
+
+6. [A-Z] or [a-z] character ranges don't work as expected sometimes in linux. Hence, it's adviced to use character class instead.
+
+7. `mkdir directory...` command is used to create directories.
+```bash
+user@hostname:~$ mkdir dir1
+user@hostname:~$ mkdir dir2 dir3 dir4
+```
+
+8. `cp items dest` copies files or directories to destination(file or directory)
+```bash
+user@hostname:~$ cp item1 item2
+user@hostname:~$ cp item2 item3 item4 directory
+```
